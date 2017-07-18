@@ -23,7 +23,6 @@
 		826B4A111F1E758C00314A62 /* TKCalendarMonthView.m in Sources */ = {isa = PBXBuildFile; fileRef = 826B49DD1F1E758C00314A62 /* TKCalendarMonthView.m */; };
 		826B4A121F1E758C00314A62 /* TKCalendarMonthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 826B49DF1F1E758C00314A62 /* TKCalendarMonthViewController.m */; };
 		826B4A151F1E758C00314A62 /* TKGlobal.m in Sources */ = {isa = PBXBuildFile; fileRef = 826B49E51F1E758C00314A62 /* TKGlobal.m */; };
-		826B4A181F1E758C00314A62 /* TKLabelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 826B49EB1F1E758C00314A62 /* TKLabelCell.m */; };
 		826B4A281F1E75F700314A62 /* TapkuLibrary.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 826B4A271F1E75F700314A62 /* TapkuLibrary.bundle */; };
 		826B4A401F1E763500314A62 /* ipadcover_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 826B4A2C1F1E763500314A62 /* ipadcover_1.jpg */; };
 		826B4A411F1E763500314A62 /* ipadcover_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 826B4A2D1F1E763500314A62 /* ipadcover_2.jpg */; };
@@ -185,8 +184,6 @@
 		826B49DF1F1E758C00314A62 /* TKCalendarMonthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKCalendarMonthViewController.m; sourceTree = "<group>"; };
 		826B49E41F1E758C00314A62 /* TKGlobal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKGlobal.h; sourceTree = "<group>"; };
 		826B49E51F1E758C00314A62 /* TKGlobal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKGlobal.m; sourceTree = "<group>"; };
-		826B49EA1F1E758C00314A62 /* TKLabelCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKLabelCell.h; sourceTree = "<group>"; };
-		826B49EB1F1E758C00314A62 /* TKLabelCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKLabelCell.m; sourceTree = "<group>"; };
 		826B4A271F1E75F700314A62 /* TapkuLibrary.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TapkuLibrary.bundle; sourceTree = "<group>"; };
 		826B4A2C1F1E763500314A62 /* ipadcover_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ipadcover_1.jpg; sourceTree = "<group>"; };
 		826B4A2D1F1E763500314A62 /* ipadcover_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ipadcover_2.jpg; sourceTree = "<group>"; };
@@ -501,8 +498,6 @@
 				826B49DF1F1E758C00314A62 /* TKCalendarMonthViewController.m */,
 				826B49E41F1E758C00314A62 /* TKGlobal.h */,
 				826B49E51F1E758C00314A62 /* TKGlobal.m */,
-				826B49EA1F1E758C00314A62 /* TKLabelCell.h */,
-				826B49EB1F1E758C00314A62 /* TKLabelCell.m */,
 			);
 			path = TapkuLibrary;
 			sourceTree = "<group>";
@@ -1047,7 +1042,6 @@
 				826B4B2C1F1E78FB00314A62 /* UIViewController+TKCategory.m in Sources */,
 				826B4B351F1E78FB00314A62 /* UIImageView+TKCategory.m in Sources */,
 				826B4B281F1E78FB00314A62 /* UIAlertView+Blocks.m in Sources */,
-				826B4A181F1E758C00314A62 /* TKLabelCell.m in Sources */,
 				826B4B211F1E78FB00314A62 /* UIApplication+TKCategory.m in Sources */,
 				826B4B5A1F1E78FB00314A62 /* TKSectionedScrollView.m in Sources */,
 				826B4B601F1E78FB00314A62 /* TKWindow.m in Sources */,
