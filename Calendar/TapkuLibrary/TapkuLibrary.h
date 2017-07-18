@@ -41,7 +41,6 @@
 
 // CELLS
 #import "TKLabelCell.h"
-#import "TKLabelTextViewCell.h"
 
 
 

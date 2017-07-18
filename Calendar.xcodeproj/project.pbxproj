@@ -132,7 +132,6 @@
 		826B4B821F1E7CE800314A62 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 826B4B681F1E7CE800314A62 /* AppDelegate.m */; };
 		826B4B841F1E7CE800314A62 /* CalendarDayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 826B4B6C1F1E7CE800314A62 /* CalendarDayViewController.m */; };
 		826B4B851F1E7CE800314A62 /* CalendarMonthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 826B4B6E1F1E7CE800314A62 /* CalendarMonthViewController.m */; };
-		826B4BC31F1E84A300314A62 /* TKLabelTextViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 826B4BAB1F1E84A300314A62 /* TKLabelTextViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -384,8 +383,6 @@
 		826B4B6C1F1E7CE800314A62 /* CalendarDayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarDayViewController.m; sourceTree = "<group>"; };
 		826B4B6D1F1E7CE800314A62 /* CalendarMonthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarMonthViewController.h; sourceTree = "<group>"; };
 		826B4B6E1F1E7CE800314A62 /* CalendarMonthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarMonthViewController.m; sourceTree = "<group>"; };
-		826B4BAA1F1E84A300314A62 /* TKLabelTextViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKLabelTextViewCell.h; sourceTree = "<group>"; };
-		826B4BAB1F1E84A300314A62 /* TKLabelTextViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKLabelTextViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -487,8 +484,6 @@
 			children = (
 				826B49C91F1E758C00314A62 /* NSDate+CalendarGrid.h */,
 				826B49CA1F1E758C00314A62 /* NSDate+CalendarGrid.m */,
-				826B4BAA1F1E84A300314A62 /* TKLabelTextViewCell.h */,
-				826B4BAB1F1E84A300314A62 /* TKLabelTextViewCell.m */,
 				826B49CB1F1E758C00314A62 /* TapkuLibrary.h */,
 				826B49D01F1E758C00314A62 /* TKAppDelegate.h */,
 				826B49D11F1E758C00314A62 /* TKAppDelegate.m */,
@@ -1060,7 +1055,6 @@
 				826B4B591F1E78FB00314A62 /* TKNumberInputWithNextKeyView.m in Sources */,
 				826B4A101F1E758C00314A62 /* TKCalendarMonthTableViewController.m in Sources */,
 				826B4B411F1E78FB00314A62 /* TKCreditCardCVVTextField.m in Sources */,
-				826B4BC31F1E84A300314A62 /* TKLabelTextViewCell.m in Sources */,
 				826B4A081F1E758C00314A62 /* NSDate+CalendarGrid.m in Sources */,
 				826B4B4D1F1E78FB00314A62 /* TKKeyboardTableViewController.m in Sources */,
 				826B4B441F1E78FB00314A62 /* TKCreditCardZipTextField.m in Sources */,
