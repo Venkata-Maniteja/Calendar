@@ -7,9 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TapkuLibrary/TapkuLibrary.h"
+#import "curry.h"
+@class DetailViewController;
 
-@interface ViewController : UIViewController
+@interface ViewController : TKTableViewController
 
+@property (nonatomic,strong) NSArray *data;
+@property (nonatomic,strong) DetailViewController *detailViewController;
 
 @end
 
