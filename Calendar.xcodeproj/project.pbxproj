@@ -132,10 +132,6 @@
 		826B4B821F1E7CE800314A62 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 826B4B681F1E7CE800314A62 /* AppDelegate.m */; };
 		826B4B841F1E7CE800314A62 /* CalendarDayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 826B4B6C1F1E7CE800314A62 /* CalendarDayViewController.m */; };
 		826B4B851F1E7CE800314A62 /* CalendarMonthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 826B4B6E1F1E7CE800314A62 /* CalendarMonthViewController.m */; };
-		826B4B9D1F1E848400314A62 /* TKButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 826B4B961F1E848400314A62 /* TKButtonCell.m */; };
-		826B4BC01F1E84A300314A62 /* TKLabelFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 826B4BA51F1E84A300314A62 /* TKLabelFieldCell.m */; };
-		826B4BC11F1E84A300314A62 /* TKLabelSwitchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 826B4BA71F1E84A300314A62 /* TKLabelSwitchCell.m */; };
-		826B4BC21F1E84A300314A62 /* TKLabelTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 826B4BA91F1E84A300314A62 /* TKLabelTextFieldCell.m */; };
 		826B4BC31F1E84A300314A62 /* TKLabelTextViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 826B4BAB1F1E84A300314A62 /* TKLabelTextViewCell.m */; };
 		826B4BCA1F1E84A300314A62 /* TKTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 826B4BB91F1E84A300314A62 /* TKTableViewCell.m */; };
 		826B4BCB1F1E84A300314A62 /* TKTextViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 826B4BBB1F1E84A300314A62 /* TKTextViewCell.m */; };
@@ -391,14 +387,6 @@
 		826B4B6C1F1E7CE800314A62 /* CalendarDayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarDayViewController.m; sourceTree = "<group>"; };
 		826B4B6D1F1E7CE800314A62 /* CalendarMonthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarMonthViewController.h; sourceTree = "<group>"; };
 		826B4B6E1F1E7CE800314A62 /* CalendarMonthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarMonthViewController.m; sourceTree = "<group>"; };
-		826B4B951F1E848400314A62 /* TKButtonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKButtonCell.h; sourceTree = "<group>"; };
-		826B4B961F1E848400314A62 /* TKButtonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKButtonCell.m; sourceTree = "<group>"; };
-		826B4BA41F1E84A300314A62 /* TKLabelFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKLabelFieldCell.h; sourceTree = "<group>"; };
-		826B4BA51F1E84A300314A62 /* TKLabelFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKLabelFieldCell.m; sourceTree = "<group>"; };
-		826B4BA61F1E84A300314A62 /* TKLabelSwitchCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKLabelSwitchCell.h; sourceTree = "<group>"; };
-		826B4BA71F1E84A300314A62 /* TKLabelSwitchCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKLabelSwitchCell.m; sourceTree = "<group>"; };
-		826B4BA81F1E84A300314A62 /* TKLabelTextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKLabelTextFieldCell.h; sourceTree = "<group>"; };
-		826B4BA91F1E84A300314A62 /* TKLabelTextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKLabelTextFieldCell.m; sourceTree = "<group>"; };
 		826B4BAA1F1E84A300314A62 /* TKLabelTextViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKLabelTextViewCell.h; sourceTree = "<group>"; };
 		826B4BAB1F1E84A300314A62 /* TKLabelTextViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKLabelTextViewCell.m; sourceTree = "<group>"; };
 		826B4BB81F1E84A300314A62 /* TKTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKTableViewCell.h; sourceTree = "<group>"; };
@@ -508,12 +496,6 @@
 			children = (
 				826B49C91F1E758C00314A62 /* NSDate+CalendarGrid.h */,
 				826B49CA1F1E758C00314A62 /* NSDate+CalendarGrid.m */,
-				826B4BA41F1E84A300314A62 /* TKLabelFieldCell.h */,
-				826B4BA51F1E84A300314A62 /* TKLabelFieldCell.m */,
-				826B4BA61F1E84A300314A62 /* TKLabelSwitchCell.h */,
-				826B4BA71F1E84A300314A62 /* TKLabelSwitchCell.m */,
-				826B4BA81F1E84A300314A62 /* TKLabelTextFieldCell.h */,
-				826B4BA91F1E84A300314A62 /* TKLabelTextFieldCell.m */,
 				826B4BAA1F1E84A300314A62 /* TKLabelTextViewCell.h */,
 				826B4BAB1F1E84A300314A62 /* TKLabelTextViewCell.m */,
 				826B4BB81F1E84A300314A62 /* TKTableViewCell.h */,
@@ -522,8 +504,6 @@
 				826B4BBB1F1E84A300314A62 /* TKTextViewCell.m */,
 				826B4BBC1F1E84A300314A62 /* TKViewController.h */,
 				826B4BBD1F1E84A300314A62 /* TKViewController.m */,
-				826B4B951F1E848400314A62 /* TKButtonCell.h */,
-				826B4B961F1E848400314A62 /* TKButtonCell.m */,
 				826B49CB1F1E758C00314A62 /* TapkuLibrary.h */,
 				826B49D01F1E758C00314A62 /* TKAppDelegate.h */,
 				826B49D11F1E758C00314A62 /* TKAppDelegate.m */,
@@ -1048,7 +1028,6 @@
 				826B4B4F1F1E78FB00314A62 /* TKVideoViewController.m in Sources */,
 				826B4B321F1E78FB00314A62 /* UIMotionEffectGroup+TKCategory.m in Sources */,
 				826B4B111F1E78FB00314A62 /* Bundle+TKCategory.swift in Sources */,
-				826B4BC21F1E84A300314A62 /* TKLabelTextFieldCell.m in Sources */,
 				826B4B501F1E78FB00314A62 /* TKWebViewController.m in Sources */,
 				826B4A121F1E758C00314A62 /* TKCalendarMonthViewController.m in Sources */,
 				826B4B191F1E78FB00314A62 /* NSObject+JSON.m in Sources */,
@@ -1068,7 +1047,6 @@
 				826B4B3E1F1E78FB00314A62 /* UIView+Initializers.m in Sources */,
 				826B4B1F1F1E78FB00314A62 /* NSURLSession+TKProgressDataTask.m in Sources */,
 				826B4B5B1F1E78FB00314A62 /* TKShapeView.m in Sources */,
-				826B4BC11F1E84A300314A62 /* TKLabelSwitchCell.m in Sources */,
 				826B4B221F1E78FB00314A62 /* UIDevice+TKCategory.swift in Sources */,
 				826B4B451F1E78FB00314A62 /* TKPhoneNumberTextField.m in Sources */,
 				826B4B1A1F1E78FB00314A62 /* NSObject+TKCategory.m in Sources */,
@@ -1098,7 +1076,6 @@
 				826B4B5E1F1E78FB00314A62 /* TKTextFieldCell.m in Sources */,
 				826B4B591F1E78FB00314A62 /* TKNumberInputWithNextKeyView.m in Sources */,
 				826B4A101F1E758C00314A62 /* TKCalendarMonthTableViewController.m in Sources */,
-				826B4BC01F1E84A300314A62 /* TKLabelFieldCell.m in Sources */,
 				826B4B411F1E78FB00314A62 /* TKCreditCardCVVTextField.m in Sources */,
 				826B4BC31F1E84A300314A62 /* TKLabelTextViewCell.m in Sources */,
 				826B4A081F1E758C00314A62 /* NSDate+CalendarGrid.m in Sources */,
@@ -1135,7 +1112,6 @@
 				826B4A111F1E758C00314A62 /* TKCalendarMonthView.m in Sources */,
 				826B4B361F1E78FB00314A62 /* UILabel+Initializers.m in Sources */,
 				826B4B4A1F1E78FB00314A62 /* TKCardModalViewController.m in Sources */,
-				826B4B9D1F1E848400314A62 /* TKButtonCell.m in Sources */,
 				826B4B561F1E78FB00314A62 /* TKInputKey.m in Sources */,
 				826B4B851F1E7CE800314A62 /* CalendarMonthViewController.m in Sources */,
 				826B4B5F1F1E78FB00314A62 /* TKTextView.m in Sources */,

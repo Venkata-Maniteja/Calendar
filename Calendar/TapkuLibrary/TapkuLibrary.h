@@ -44,10 +44,6 @@
 // CELLS
 #import "TKLabelCell.h"
 #import "TKLabelTextViewCell.h"
-#import "TKLabelTextFieldCell.h"
-#import "TKLabelFieldCell.h"
-#import "TKLabelSwitchCell.h"
-#import "TKButtonCell.h"
 #import "TKTextViewCell.h"
 #import "TKTableViewCell.h"
 
