@@ -134,8 +134,6 @@
 		826B4B851F1E7CE800314A62 /* CalendarMonthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 826B4B6E1F1E7CE800314A62 /* CalendarMonthViewController.m */; };
 		826B4BC31F1E84A300314A62 /* TKLabelTextViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 826B4BAB1F1E84A300314A62 /* TKLabelTextViewCell.m */; };
 		826B4BCA1F1E84A300314A62 /* TKTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 826B4BB91F1E84A300314A62 /* TKTableViewCell.m */; };
-		826B4BCB1F1E84A300314A62 /* TKTextViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 826B4BBB1F1E84A300314A62 /* TKTextViewCell.m */; };
-		826B4BCC1F1E84A300314A62 /* TKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 826B4BBD1F1E84A300314A62 /* TKViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -391,10 +389,6 @@
 		826B4BAB1F1E84A300314A62 /* TKLabelTextViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKLabelTextViewCell.m; sourceTree = "<group>"; };
 		826B4BB81F1E84A300314A62 /* TKTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKTableViewCell.h; sourceTree = "<group>"; };
 		826B4BB91F1E84A300314A62 /* TKTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKTableViewCell.m; sourceTree = "<group>"; };
-		826B4BBA1F1E84A300314A62 /* TKTextViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKTextViewCell.h; sourceTree = "<group>"; };
-		826B4BBB1F1E84A300314A62 /* TKTextViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKTextViewCell.m; sourceTree = "<group>"; };
-		826B4BBC1F1E84A300314A62 /* TKViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKViewController.h; sourceTree = "<group>"; };
-		826B4BBD1F1E84A300314A62 /* TKViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -500,10 +494,6 @@
 				826B4BAB1F1E84A300314A62 /* TKLabelTextViewCell.m */,
 				826B4BB81F1E84A300314A62 /* TKTableViewCell.h */,
 				826B4BB91F1E84A300314A62 /* TKTableViewCell.m */,
-				826B4BBA1F1E84A300314A62 /* TKTextViewCell.h */,
-				826B4BBB1F1E84A300314A62 /* TKTextViewCell.m */,
-				826B4BBC1F1E84A300314A62 /* TKViewController.h */,
-				826B4BBD1F1E84A300314A62 /* TKViewController.m */,
 				826B49CB1F1E758C00314A62 /* TapkuLibrary.h */,
 				826B49D01F1E758C00314A62 /* TKAppDelegate.h */,
 				826B49D11F1E758C00314A62 /* TKAppDelegate.m */,
@@ -1062,7 +1052,6 @@
 				826B499D1F1E756000314A62 /* ViewController.m in Sources */,
 				826B4B821F1E7CE800314A62 /* AppDelegate.m in Sources */,
 				826B4B3B1F1E78FB00314A62 /* UIScrollview+TKCategory.m in Sources */,
-				826B4BCC1F1E84A300314A62 /* TKViewController.m in Sources */,
 				826B4A0B1F1E758C00314A62 /* TKAppDelegate.m in Sources */,
 				826B4B201F1E78FB00314A62 /* NSUserDefaults+iCloud.m in Sources */,
 				826B4B331F1E78FB00314A62 /* UIBarButtonItem+TKCategory.m in Sources */,
@@ -1092,7 +1081,6 @@
 				826B4B231F1E78FB00314A62 /* UIScreen+TKCategory.m in Sources */,
 				826B4B0D1F1E78FB00314A62 /* CAAnimation+TKAnimation.m in Sources */,
 				826B4B5C1F1E78FB00314A62 /* TKStepperCell.m in Sources */,
-				826B4BCB1F1E84A300314A62 /* TKTextViewCell.m in Sources */,
 				826B4B301F1E78FB00314A62 /* UIGestureRecognizer+TKCategory.m in Sources */,
 				826B4B3D1F1E78FB00314A62 /* UIView+GestureRecognizerBlock.m in Sources */,
 				826B4B401F1E78FB00314A62 /* UIView+TKCategory.m in Sources */,

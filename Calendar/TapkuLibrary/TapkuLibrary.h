@@ -33,8 +33,6 @@
 
 
 
-#import "TKViewController.h"
-
 #import "TKAppDelegate.h"
 
 
@@ -44,7 +42,6 @@
 // CELLS
 #import "TKLabelCell.h"
 #import "TKLabelTextViewCell.h"
-#import "TKTextViewCell.h"
 #import "TKTableViewCell.h"
 
 
