@@ -133,7 +133,6 @@
 		826B4B841F1E7CE800314A62 /* CalendarDayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 826B4B6C1F1E7CE800314A62 /* CalendarDayViewController.m */; };
 		826B4B851F1E7CE800314A62 /* CalendarMonthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 826B4B6E1F1E7CE800314A62 /* CalendarMonthViewController.m */; };
 		826B4BC31F1E84A300314A62 /* TKLabelTextViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 826B4BAB1F1E84A300314A62 /* TKLabelTextViewCell.m */; };
-		826B4BCA1F1E84A300314A62 /* TKTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 826B4BB91F1E84A300314A62 /* TKTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -387,8 +386,6 @@
 		826B4B6E1F1E7CE800314A62 /* CalendarMonthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarMonthViewController.m; sourceTree = "<group>"; };
 		826B4BAA1F1E84A300314A62 /* TKLabelTextViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKLabelTextViewCell.h; sourceTree = "<group>"; };
 		826B4BAB1F1E84A300314A62 /* TKLabelTextViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKLabelTextViewCell.m; sourceTree = "<group>"; };
-		826B4BB81F1E84A300314A62 /* TKTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKTableViewCell.h; sourceTree = "<group>"; };
-		826B4BB91F1E84A300314A62 /* TKTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -492,8 +489,6 @@
 				826B49CA1F1E758C00314A62 /* NSDate+CalendarGrid.m */,
 				826B4BAA1F1E84A300314A62 /* TKLabelTextViewCell.h */,
 				826B4BAB1F1E84A300314A62 /* TKLabelTextViewCell.m */,
-				826B4BB81F1E84A300314A62 /* TKTableViewCell.h */,
-				826B4BB91F1E84A300314A62 /* TKTableViewCell.m */,
 				826B49CB1F1E758C00314A62 /* TapkuLibrary.h */,
 				826B49D01F1E758C00314A62 /* TKAppDelegate.h */,
 				826B49D11F1E758C00314A62 /* TKAppDelegate.m */,
@@ -1044,7 +1039,6 @@
 				826B4B151F1E78FB00314A62 /* NSDate+TKCategory.m in Sources */,
 				826B4B171F1E78FB00314A62 /* NSMutableAttributedString+TKCategory.m in Sources */,
 				826B4B381F1E78FB00314A62 /* UINavigationBar+TKCategory.m in Sources */,
-				826B4BCA1F1E84A300314A62 /* TKTableViewCell.m in Sources */,
 				826B4B241F1E78FB00314A62 /* UITraitCollection+TKCategory.m in Sources */,
 				826B4B2F1F1E78FB00314A62 /* UIGestureRecognizer+Blocks.m in Sources */,
 				826B4B261F1E78FB00314A62 /* UIActionSheet+TKCategory.m in Sources */,
